@@ -8,7 +8,7 @@
     overflow-x: hidden;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1320px;
     margin: 0 auto;
 }
 #home{
@@ -186,3 +186,181 @@ p{
     text-align: center;
     /* margin-left: 45%; */
 }
+
+
+
+#blog{
+    width: 100%;
+    /* min-height: 60vh; */
+    background: rgb(250, 250, 250);
+    margin: 5rem 0;
+}
+
+.blog-top{
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.blog-top h2{
+    font-size: 2rem;
+}
+.blog-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.blog-note{
+    /* margin: 0 20px; */
+    max-width: 30%;
+    text-align: center;
+}
+
+.blog-note a img{
+    margin-top: 50px;
+    max-width: 350px;
+    transition: .3s ease-in-out;
+}
+.blog-note a img:hover{
+    transform: translateY(-20px);
+}
+.blog-note a h4{
+    color: black;
+    margin-top: 30px;
+}
+.blog-note a h4:hover{
+    color: rgb(59, 144, 255);
+}
+
+
+
+#project{
+    width: 100%;
+    /* min-width: 50vh; */
+}
+#project main{
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(177, 83, 177, 0.822), rgb(79, 79, 255));
+    color: white;
+}
+.project-text{
+    /* margin: 100px 0; */
+    text-align: center;
+    padding: 6rem;
+}
+.project-text p a{
+    color: white;
+}
+.project-text p a:hover{
+    color: rgb(0, 0, 0);
+}
+.project-text p span{
+    text-decoration-line: underline
+}
+.btn2{
+    padding: 15px 20px;
+    background: white;
+    border: none;
+    transition: .5s ease;
+}
+.btn2 a{
+    font-size: 15px;
+    color: rgb(79, 79, 255);
+    font-weight: bold;
+}
+.btn2:hover{
+    background: rgb(231, 231, 231);
+}
+
+
+
+footer{
+    width: 100%;
+    /* min-height: 20vh; */
+    background: rgb(15, 14, 14);
+    margin-top: 5rem;
+}
+.foot-bars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+    color: white;
+}
+.foot-bars h1{
+    font-size: 2rem;
+}
+.nav-socials a{
+    color: white;
+    margin: 0 10px;
+}
+.nav-socials a:hover{
+    color: rgb(79, 79, 255);
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
